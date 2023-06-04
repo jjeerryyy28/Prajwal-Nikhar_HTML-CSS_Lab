@@ -1,0 +1,85 @@
+h1 {
+  background-color: red;
+  width: 100%;
+  height: 40px;
+  text-align: right;
+  margin: 0;
+  padding: 15px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 div {
+  padding-right: 120px;
+}
+
+.menu {
+  background-color: #7f7f7f;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 19px;
+}
+
+#submenu1,
+#submenu2 {
+  background-color: transparent;
+}
+
+#submenu1 li a,
+#submenu2 li a {
+  color: blue;
+  text-align: center;
+}
+
+.menu li:nth-child(2):hover #submenu1,
+.menu li:nth-child(3):hover #submenu2 {
+  display: block;
+}
+
+.menu li:hover {
+  background-color: darkgrey;
+}
+
+#submenu1 {
+  width: auto;
+  top: 42.5px;
+  display: none;
+  max-width: 100px;
+  left: 25px;
+  background-color: #fff;
+  position: absolute;
+}
+
+#submenu2 {
+  width: auto;
+  top: 42.5px;
+  display: none;
+  max-width: 100px;
+  left: 100px;
+  background-color: #fff;
+  position: absolute;
+}
+
+#submenu1 li a,
+#submenu2 li a {
+  color: blue;
+}
+
+#navigate {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}

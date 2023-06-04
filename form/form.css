@@ -1,0 +1,50 @@
+body {
+  margin: 0%;
+  border: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  border-radius: 4px;
+  padding: 40px;
+}
+
+fieldset {
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 40px;
+}
+
+legend {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+input {
+  width: 300px;
+  min-width: 100px;
+  padding: 10px;
+  background-color: whitesmoke;
+  margin-bottom: 10px;
+  border: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input:focus {
+  outline: none;
+  background-color: rgba(70, 131, 180, 0.35);
+  color: white;
+}
+
+button {
+  margin: 20px;
+  width: 80px;
+  height: 30px;
+  background-color: rgb(175, 102, 243);
+  color: white;
+  border: none;
+}
